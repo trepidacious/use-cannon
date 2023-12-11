@@ -1,5 +1,5 @@
 {
-  "name": "@react-three/cannon",
+  "name": "@trepidacious/cannon",
   "version": "6.6.0",
   "description": "physics based hooks for react-three-fiber",
   "keywords": [
@@ -30,7 +30,7 @@
     "prettier-fix": "prettier --write ."
   },
   "dependencies": {
-    "@pmndrs/cannon-worker-api": "^2.4.0",
+    "@trepidacious/cannon-worker-api": "^2.4.0",
     "cannon-es": "^0.20.0",
     "cannon-es-debugger": "^1.0.0"
   },

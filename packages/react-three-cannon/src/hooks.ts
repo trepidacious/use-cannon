@@ -37,7 +37,7 @@ import type {
   Triplet,
   VectorName,
   WheelInfoOptions,
-} from '@pmndrs/cannon-worker-api'
+} from '@trepidacious/cannon-worker-api'
 import type { DependencyList, MutableRefObject, Ref, RefObject } from 'react'
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { DynamicDrawUsage, Euler, InstancedMesh, MathUtils, Object3D, Quaternion, Vector3 } from 'three'

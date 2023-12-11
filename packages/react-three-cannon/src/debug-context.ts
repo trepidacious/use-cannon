@@ -1,4 +1,4 @@
-import type { BodyProps, BodyShapeType } from '@pmndrs/cannon-worker-api'
+import type { BodyProps, BodyShapeType } from '@trepidacious/cannon-worker-api'
 import { createContext, useContext } from 'react'
 
 export type DebugApi = {

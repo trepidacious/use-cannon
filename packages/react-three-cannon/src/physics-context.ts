@@ -6,7 +6,7 @@ import type {
   RayhitEvent,
   Refs,
   Subscriptions,
-} from '@pmndrs/cannon-worker-api'
+} from '@trepidacious/cannon-worker-api'
 import { createContext, useContext } from 'react'
 import type { Vector3 } from 'three'
 

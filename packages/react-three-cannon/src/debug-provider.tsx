@@ -1,5 +1,5 @@
-import { propsToBody } from '@pmndrs/cannon-worker-api'
 import { useFrame } from '@react-three/fiber'
+import { propsToBody } from '@trepidacious/cannon-worker-api'
 import type { Body, Quaternion as CQuaternion, Vec3, World } from 'cannon-es'
 import CannonDebugger from 'cannon-es-debugger'
 import type { PropsWithChildren } from 'react'

@@ -69,4 +69,4 @@ export type {
   WorkerRayhitEvent,
   WorldPropName,
   WorldProps,
-} from '@pmndrs/cannon-worker-api'
+} from '@trepidacious/cannon-worker-api'

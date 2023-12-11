@@ -1,3 +1,5 @@
+import type { RenderCallback } from '@react-three/fiber'
+import { useFrame, useThree } from '@react-three/fiber'
 import type {
   CannonWorkerProps,
   WorkerCollideBeginEvent,
@@ -5,10 +7,8 @@ import type {
   WorkerCollideEvent,
   WorkerFrameMessage,
   WorkerRayhitEvent,
-} from '@pmndrs/cannon-worker-api'
-import { CannonWorkerAPI } from '@pmndrs/cannon-worker-api'
-import type { RenderCallback } from '@react-three/fiber'
-import { useFrame, useThree } from '@react-three/fiber'
+} from '@trepidacious/cannon-worker-api'
+import { CannonWorkerAPI } from '@trepidacious/cannon-worker-api'
 import type { PropsWithChildren } from 'react'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import type { Object3D } from 'three'
